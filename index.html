@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>타이머</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="app.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<p>스톱워치</p>
+			<div id="buttons">
+				<button class="timer_btn" data-value="start" id="btn_start">start</button>
+				<button class="timer_btn" data-value="stop" id="btn_stop">stop</button>
+				<button class="timer_btn" data-value="reset" id="btn_reset">reset</button>
+			</div>
+		</header>
+
+		<!-- timeAlert -->
+		<div id="timeAlert">
+			<h1 id="hour">00</h1>
+			<h1>:</h1>
+			<h1 id="minute">00</h1>
+			<h1>:</h1>
+			<h1 id="second">00</h1>
+		</div>
+		<!-- /timeAlert -->
+	</div>
+</body>
+</html>
